@@ -2,7 +2,7 @@
 --bg: #000;
 --accent-color: #D23166;
 --main-color:#FFF;
---social-bg:rgba(255,255,255,0.10)
+--social-bg:rgba(255,255,255,0.10);
 --cart-bg: #151515;
 }
 body{
@@ -13,9 +13,9 @@ background-color: var(--bg);
     padding-bottom: 40px;
 }
 .header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .container{
     width: 1267px;
@@ -36,14 +36,16 @@ color: var(--main-color);
     font-weight: 500;
     line-height: normal;
 }
+
 .header-items{
-display:flex;
-    gap: 15px;   
+    gap: 15px;
+    display: flex;   
 }
 .header-social{
     width: 36px;
     height: 36px;
-    background-color: red;
+    background-color: var(--social-bg);
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
