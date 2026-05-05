@@ -4,6 +4,8 @@
 --main-color:#FFF;
 --social-bg:rgba(255,255,255,0.10);
 --cart-bg: #151515;
+--color-btn: #FAFAFA;
+--about-text: rgba(255, 255, 255, 0.20);
 }
 body{
 background-color: var(--bg);
@@ -54,4 +56,98 @@ color: var(--main-color);
     width: 15px;
     height: 15px;
 
+}
+.hero .container{
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+.hero-text{
+    align-self: stretch;
+        color: var(--main-color);
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.4px;
+margin-bottom: 20px;        
+}
+.hero-title{
+    width: 587.0px;
+align-self: stretch;
+    color: var(--main-color);
+    font-family: Alexandria;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94%;
+    letter-spacing: -4.013px;
+    opacity: 0.9;
+    margin-bottom: 16px;
+}
+.hero-span{
+    color: var(--accent-color);
+}
+.hero-desk{
+width: 578.0px;
+color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    opacity: 0.6;
+    margin-bottom: 48px;
+}
+.hero-button{
+display: flex;
+    padding: 13px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--accent-color);
+    color: var(--color-btn);
+        font-family: "Hind Madurai";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+}
+.about{
+padding-top: 129px ;
+padding-bottom: 105px ;
+}
+.about .container{
+    position: relative;
+
+}
+.about-text{
+color: var(--main-color);
+    text-align: center;
+    font-family: Alexandria;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -4.013px;
+    opacity: 0.9;
+}
+.about-span{
+color: var(--about-text);
+}
+.about-pistachio{position: absolute;
+top: -70px;
+right: 130px;
+}
+.about-milk{position: absolute;
+    left: 40px;
+    top: 100px;
+}
+.about-strawberry{
+position: absolute;
+bottom: -45px;
+left:50%;
 }
