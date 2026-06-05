@@ -20,7 +20,7 @@ align-items: center;
 justify-content: space-between;
 }
 .container{
-    width: 1267px;
+    width: 1200px;
     margin: 0 auto;
 padding-left: 10px;
 padding-right: 10px;
@@ -41,26 +41,31 @@ color: var(--main-color);
 
 .header-items{
     gap: 15px;
-    display: flex;   
+    display: flex;  
+    margin-left: 207.5px;
 }
 .header-social{
     width: 36px;
     height: 36px;
     background-color: var(--social-bg);
     border-radius: 50%;
+}
+.header-elem{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+.header-nav{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .header-img{
-    width: 15px;
-    height: 15px;
 
 }
 .hero .container{
-    display: flex;
-    gap: 73px;
-    align-items: center;
+
 }
 .hero-text{
     align-self: stretch;
@@ -103,6 +108,8 @@ color: #FFF;
 .hero-button{
 display: flex;
     padding: 13px 50px;
+    width: 165px;
+    height: 49px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -115,6 +122,19 @@ display: flex;
         font-weight: 700;
         line-height: normal;
 
+}
+.hero-img{
+width: 588px;
+height: 588px;
+}
+.hero .container{
+width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid red;
+    display: flex;
+        gap: 10px;
 }
 .about{
 padding-top: 129px ;
@@ -138,7 +158,8 @@ color: var(--main-color);
 .about-span{
 color: var(--about-text);
 }
-.about-pistachio{position: absolute;
+.about-pistachio{
+position: absolute;
 top: -70px;
 right: 130px;
 }
@@ -155,6 +176,10 @@ left:50%;
     padding-top: 60px;
     padding-bottom: 60px ;
 }
+.product-wrap{
+display: flex;
+justify-content: space-between;
+}
 .product-title{
 color: var(--main-color);
     font-family: Roboto;
@@ -164,11 +189,11 @@ color: var(--main-color);
     line-height: 94%;
     letter-spacing: -3.92px;
     opacity: 0.9;
+    display: flex;
 }
 .product-list{
     display: flex;
     gap: 18px;
-
 }
 .product-btn{
     width: 48px;
@@ -248,7 +273,6 @@ border: none;
 .product-price:last-child{
 display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     color: var(--main-color);
     font-family: "Hind Madurai";
     font-size: 20px;
