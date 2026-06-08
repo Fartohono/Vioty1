@@ -11,8 +11,10 @@ body{
 background-color: var(--bg);
 }
 .header{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 96px;
+    margin-right: 96px;
 }
 .header .container{
 display: flex;
@@ -43,7 +45,7 @@ color: var(--main-color);
     display: flex;  
     margin-left: 207.5px;
 }
-.header-social{
+.header-elem{
     width: 36px;
     height: 36px;
     background-color: var(--social-bg);
@@ -62,6 +64,11 @@ color: var(--main-color);
 }
 .header-img{
 
+}
+.hero{
+    display: flex;
+    align-items: start;
+margin-top: 122px;
 }
 .hero-text{
     align-self: stretch;
@@ -130,7 +137,14 @@ width: 1200px;
     outline: 1px solid red;
         gap: 10px;
         display: flex;
-        justify-content: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.wrap{
+display: flex;
+    justify-content: start;
+    align-items: start;
+
 }
 .about{
 padding-top: 129px ;
