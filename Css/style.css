@@ -22,7 +22,6 @@ justify-content: space-between;
 .container{
     width: 1200px;
     margin: 0 auto;
-padding-left: 10px;
 padding-right: 10px;
 outline: 1px solid red;
 }
@@ -62,9 +61,6 @@ color: var(--main-color);
     justify-content: center;
 }
 .header-img{
-
-}
-.hero .container{
 
 }
 .hero-text{
@@ -130,11 +126,11 @@ height: 588px;
 .hero .container{
 width: 1200px;
     margin: 0 auto;
-    padding-left: 10px;
     padding-right: 10px;
     outline: 1px solid red;
-    display: flex;
         gap: 10px;
+        display: flex;
+        justify-content: row;
 }
 .about{
 padding-top: 129px ;
