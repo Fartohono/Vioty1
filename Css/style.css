@@ -483,7 +483,251 @@ display: flex;
     text-decoration-line: line-through;
     opacity: 0.7;
 }
+.order-title{
+    width: 466.0px;
+height: 106.0px;
 
+    color: #fff;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 94%;
+letter-spacing: -3.92px;
+opacity: 0.9;
+margin-top: 184.5px;
+margin-bottom: 16px;
+}
+.pink-text{
+    color: #D23166;
+}
+.order-text{
+    color: #FFF;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.6;
+width: 466.0px;
+height: 78.0px;
+margin-bottom: 64px;
+}
+.order{
+    
+}
+.order .container{
+display: flex;
+
+}
+
+.order-steps{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.order-step{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 28px;
+}
+.order-step:last-child{
+    padding-bottom: 0;
+}
+.order-step-circle{
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1.5px solid #888888;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--main-color);
+    font-family: Manrope;
+    font-size: 16px;
+}
+.order-step-label{
+    color: var(--main-color);
+    font-family: Manrope;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.order-step:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 44px;
+    height: 28px;
+    width: 1.5px;
+    background: #888888;
+}
+.order-list{
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.order-pic{
+    width: 782.0px;
+height: 810.0px;
+padding-bottom: 60px;
+}
+
+.question{
+    background: url("../Images/img-form-Background.png");
+
+}
+.question .container{
+    padding-top: 223px;
+    padding-bottom: 223px;
+    display: flex;
+    ruby-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.question-title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+    width: 653.0px;
+height: 108.0px;
+    align-self: stretch;
+color: #FFF;
+text-align: center;
+font-family: Alexandria;
+font-size: 57.33px;
+font-style: normal;
+font-weight: 400;
+line-height: 94%;
+letter-spacing: -4.013px;
+opacity: 0.9;
+
+}
+.question-form{
+    width: 637.0px;
+height: 74.0px;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+gap: 10px;
+border-radius: 1000px;
+
+}
+.question-input{
+    width: 637.0px;
+height: 74.0px;
+display: flex;
+padding: 29px 30px;
+align-items: center;
+gap: 10px;
+position: absolute;
+border-radius: 100px;
+border: 1px solid #FFF;
+color: #fff;
+background-color: transparent;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.6;
+
+
+}
+.question-button{
+    width: 134.0px;
+height: 74.0px;
+padding: 28px 31px;
+position: relative;
+left: 502px;
+    display: flex;
+padding: 28px 31px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 1000px;
+background: #D23166;
+color: #FFF;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.footer{
+    padding-top: 100px;
+    display: flex;
+
+    flex-direction: row;
+background-color: #151515;
+}
+.footer .container{
+        display: flex;
+        justify-content: space-between;
+    flex-direction: row;
+}
+.footer-items{
+        gap: 15px;
+    display: flex;  
+
+}
+.footer-wrap{
+    
+}
+.footer-wrap:last-child{
+    padding-right: 0;
+}
+.footer-desk{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 212.0px;
+height: 60.0px;
+
+    align-self: stretch;
+color: #FFF;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.687%;
+letter-spacing: 0.14px;
+opacity: 0.7;
+
+}
+.footer-menu{
+text-transform: uppercase;
+    align-self: stretch;
+color: #FFF;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 33px;
+}
+.footer-list-menu{
+    display: flex;
+gap: 4px;
+    flex-direction: column;
+}
+.footer-text-menu{
+    color: rgba(255, 255, 255, 0.80);
+text-align: justify;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
 @media (max-width:767px){
     .container{
     width: 480px;
@@ -510,4 +754,5 @@ flex-direction: column;
     display: grid;
     grid-template-columns:repeat(1,1fr);
 }
+
 }
